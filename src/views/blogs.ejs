@@ -1,0 +1,16 @@
+<h1 class="full-width-header">All Blogs</h1>
+<div class="containerB">
+  <div class="row">
+    <% blogs.forEach((blog, index) => { %>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="<%= blog.img %>" class="card-img-top" alt="<%= blog.title %>">
+        <div class="card-body">
+          <h5 class="card-title">ID: <%= index + 1 %> - <%= blog.title %></h5>
+          <p class="card-text"><%= blog.description %></p>
+        </div>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</div>

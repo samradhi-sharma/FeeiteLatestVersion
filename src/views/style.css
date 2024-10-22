@@ -1,0 +1,16 @@
+.intro-section {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #fff4e6;
+}
+
+.main-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4rem;
+    color: #e26158;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #333;
+}
